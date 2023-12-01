@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<!--  this is the homepage -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.com/98411aa1-fb18-437a-a7a9-53e38169b84c%2FSleepy%20Hallow%20logo%20(2).png?v=1598128867114"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+      rel="stylesheet"
+    />
+    <title>Plants</title>
+
+    <body style="background-color: #76B596"></body>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/plants.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <!--    logo right here (takes you to home)    -->
+      <a href="index.html">
+        <img
+          class="logo"
+          src="https://cdn.glitch.com/98411aa1-fb18-437a-a7a9-53e38169b84c%2FSleepy%20Hallow%20logo%20(2).png?v=1598128867114"
+        />
+      </a>
+      <a href="index.html" class="navText" id="homeNavLink">Home</a>
+      <a href="plants.html" class="navText" id="plantsNavLink">Plants</a>
+      <a href="garden.html" class="navText" id="gardenNavLink">The Garden</a>
+      <a href="sleep.html" class="navText" id="sleepNavLink"
+        >Learn About Sleep</a
+      >
+      <a href="online.html" class="navText" id="onlineNavLink">Discover</a>
+
+      <a href="help.html" class="navText" id="helpNavLink">Help</a>
+      <a href="login.html" class="navText" id="loginNavLink">Login</a>
+    </nav>
+
+    <p class="intructions">
+      Enter the number of Hours you slept to grow a plant. If your plant is
+      fully grown you can add it to your garden.
+    </p>
+
+    <hr />
+    <div class="allPlants">
+      <div class="plant">
+        <h1 class="flowerName">
+          Twilight (8 hours of sleep required)
+        </h1>
+        <img
+          id="twilight"
+          src="https://cdn.glitch.com/98411aa1-fb18-437a-a7a9-53e38169b84c%2FPaper.hackathon_2020_.2_10__1_-removebg-preview.png?v=1598138449576"
+        />
+        <label for="hours">How many hours did you sleep last night? </label>
+        <input type="number" class="hoursTwi" name="hours" min="1" max="10" />
+        <button class="btn" onclick="Twilight()">
+          Nourish Plant
+        </button>
+      </div>
+      <div class="plant">
+        <h1 class="flowerName">
+          Moonlight (9 hours of sleep required)
+        </h1>
+        <img
+          id="moonlight"
+          src="https://cdn.glitch.com/98411aa1-fb18-437a-a7a9-53e38169b84c%2FPaper.hackathon_2020_.2_6__1_-removebg-preview.png?v=1598138500347"
+        />
+        <label for="hours">How many hours did you sleep last night? </label>
+        <input
+          type="number"
+          class="hoursMoon"
+          name="hoursMoon"
+          min="1"
+          max="10"
+        />
+        <button class="btn" onclick="Moonlight()">
+          Nourish Plant
+        </button>
+      </div>
+
+      <div class="plant">
+        <h1 class="flowerName">
+          Midnight (10 hours of sleep required)
+        </h1>
+        <img
+          id="midnight"
+          src="https://cdn.glitch.com/98411aa1-fb18-437a-a7a9-53e38169b84c%2FPaper.hackathon_2020_.2-removebg-preview%20(1).png?v=1598138619956"
+        />
+        <label for="hours">How many hours did you sleep last night? </label>
+        <input
+          type="number"
+          class="hoursMid"
+          name="hoursMid"
+          min="1"
+          max="10"
+        />
+        <button class="btn" onclick="Midnight()">
+          Nourish Plant
+        </button>
+      </div>
+    </div>
+    <footer>
+      <a href="about.html" class="footerText" id="aboutfooterLink">About Us</a>
+      <left>
+        © All rights reseved to Sleepy Hallow Inc. 2020 ℗
+      </left>
+    </footer>
+  </body>
+</html>

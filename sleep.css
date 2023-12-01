@@ -1,0 +1,61 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:1440px;
+}
+
+h1{
+  text-align: center;
+  color: navy;
+}
+
+h2{
+  text-align: center;
+}
+
+box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  border-color: black;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  border-color: black;
+}
+
+.color{
+  color: #2352a8;
+}
+
+
+center{
+  font-size: 200%;
+  color: white;
+}
+
+.sleep {
+  text-align: up;
+  font-family: cursive;
+  font-size: 50px;
+  color: black;
+}
+
+#center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:1440px;
+}
+
+center{
+  color: black;
+  font-family: 'Raleway';
+}

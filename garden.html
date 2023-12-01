@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<!--  this is the homepage -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.com/98411aa1-fb18-437a-a7a9-53e38169b84c%2FSleepy%20Hallow%20logo%20(2).png?v=1598128867114"
+      type="image/x-icon"
+    />
+
+    <title>Nemuidesu Garden</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/garden.css" />
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <script src="/garden.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <!--    logo right here (takes you to home)    -->
+      <a href="index.html">
+        <img
+          class="logo"
+          src="https://cdn.glitch.com/98411aa1-fb18-437a-a7a9-53e38169b84c%2FSleepy%20Hallow%20logo%20(2).png?v=1598128867114"
+        />
+      </a>
+      <a href="index.html" class="navText" id="homeNavLink">Home</a>
+      <a href="plants.html" class="navText" id="plantsNavLink">Plants</a>
+      <a href="garden.html" class="navText" id="gardenNavLink">The Garden</a>
+      <a href="sleep.html" class="navText" id="sleepNavLink"
+        >Learn About Sleep</a
+      >
+      <a href="online.html" class="navText" id="onlineNavLink">Discover</a>
+
+      <a href="help.html" class="navText" id="helpNavLink">Help</a>
+      <a href="login.html" class="navText" id="loginNavLink">Login</a>
+      <!--     add drop box with    -->
+    </nav>
+    <h1 id="myGardenTitle">
+      My Garden
+    </h1>
+    <div class="row">
+      
+    <img
+      id="addBtn"
+      src="https://cdn.glitch.com/98411aa1-fb18-437a-a7a9-53e38169b84c%2FWhite-Plus-Button.png?v=1598165047058"
+      onclick="appendImage()"
+    />
+
+    <div class="plants"></div>
+    <img
+      id="addBtn2"
+      src="https://cdn.glitch.com/98411aa1-fb18-437a-a7a9-53e38169b84c%2FWhite-Plus-Button.png?v=1598165047058"
+      onclick="appendImage2()"
+    />
+
+    <div class="plants2"></div>
+    <img
+      id="addBtn3"
+      src="https://cdn.glitch.com/98411aa1-fb18-437a-a7a9-53e38169b84c%2FWhite-Plus-Button.png?v=1598165047058"
+      onclick="appendImage3()"
+    />
+
+    <div class="plants3"></div>
+    </div>
+
+    <footer>
+      <a href="about.html" class="footerText" id="aboutfooterLink">About Us</a>
+      <left>
+        © All rights reseved to Sleepy Hallow Inc. 2020 ℗
+      </left>
+    </footer>
+    <!--this is the button to add plants  -->
+  </body>
+</html>

@@ -1,0 +1,95 @@
+#motto {
+  text-align: center;
+  font-family: cursive;
+  font-size: 50px;
+  color: white;
+}
+
+ .box{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+.box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 30%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+}
+
+
+.frame {
+  box-shadow: 5px 10px 18px #888888;
+  display: inline-block; 
+  background: #f2f2f2;
+  padding: 10px;
+  margin-left: 10px; 
+  margin-right: 10px; 
+  margin-top: 10px; 
+  margin-bottom: 10px; 
+  min-width: 250px;
+  min-height: 250px ;
+  position: relative;
+}
+
+.frames{
+  width: 100px;
+  display: flex;
+  margin: auto; 
+}
+ 
+/* 
+.frame .textDescription{
+    position: absolute;
+} */
+
+.textDescrption{
+  margin: 10px;
+    font-family: 'Abel', sans-serif;
+}
+
+
+#moonlight{
+ padding-top: 33.25px; 
+}
+
+#midnight{
+  padding-top: 7px
+}
+
+
+/*smooth sliding down the page*/ 
+html {
+  scroll-behavior: smooth;
+ }
+ 
+ a {
+  text-decoration: none;
+  color: #081429;
+   text-align: center;
+ } 
+ 
+ #down {
+  margin-top: 30%;
+  padding-bottom: 25%;
+ }
+
+.one:hover{
+  color: #a8ead0
+}
+
+.two:hover{
+  color: #8c95f3
+}
+.three:hover{
+  color: #d5f6b9
+}
+.four:hover{
+  color: #abc1ea
+}
+.five:hover{
+  color: #cdaaed
+}
