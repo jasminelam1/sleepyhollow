@@ -1,0 +1,53 @@
+.plant{
+  
+  margin-left: 30px;
+  display: inline-block;
+  margin-bottom: 30px
+}
+
+.flowerName{
+  margin-bottom: 300px;
+  color: #081429;
+  
+}
+
+#twilight{
+  width:300px;
+}
+
+#midnight{
+  width:300px;
+
+     
+}
+
+#moonlight{
+  width:300px;
+}
+
+.btn{
+    color: white;
+    background: #2352a8;
+    border: 1px #4d7cd1 solid;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 9pt;
+    outline: none;
+}
+
+.btn:hover{
+ opacity: 0.7;
+}
+
+.intructions{
+  font-family: cursive;
+  font-size: 50px;
+  text-align: center;
+  color: #081429
+}
+
+lable{
+  font-family: font-family: 'Alata', sans-serif;
+}
+

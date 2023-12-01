@@ -1,0 +1,25 @@
+body{
+  background-color: #9199e3;
+}
+
+button{
+  width: 100px;
+  background-color: #401278;
+  color: white;
+     margin-left: 60px; 
+}
+
+button:hover{
+  background-color: white;
+  color: #401278;
+ 
+}
+
+footer{
+  margin-top: 555px; 
+}
+
+h1{
+  color: navy;
+  margin: 10px;
+}

@@ -1,0 +1,47 @@
+body{
+  background-image: url("https://i.pinimg.com/originals/ff/ef/fb/ffeffbb56be042323c9662c26a52f86b.jpg")
+}
+
+.plantImg{
+  margin-left: 7%;
+  margin-right: 5%;
+  width: 100px;
+  min-height: 250px;
+}
+
+#addBtn{
+  width: 50px;
+  margin: 100px
+    
+}
+
+footer{
+ margin-top: 33%
+}
+
+#addBtn2{
+  width: 50px;
+  margin: 100px
+    
+}
+
+#addBtn3{
+  width: 50px;
+  margin: 100px
+    
+}
+
+#myGardenTitle {
+  text-align: center;
+  color: white;
+  font-family: cursive;
+  font-size: 50px;
+  border: 2px solid black;
+  padding: 20px;
+  width: 30%;
+  margin-left: 33%;
+}
+
+
+
+

@@ -1,0 +1,98 @@
+body {
+  background-color: #000033;
+}
+
+#aboutus {
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height:
+}
+
+.aboutusimg {
+  width: 100%;
+  height: 500px;
+}
+
+.title {
+  text-align: center;
+  background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/night-garden-one-eric-heitmann.jpg");
+  border: 2px solid black;
+  padding: 25px;
+  background-size: auto;
+  font-size: 30px;
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+}
+
+.caption{
+
+  position:relative;
+  display:inline-block;
+  width:70%; /* adjust this as the container width changes */
+  margin-top: 30px;
+  margin-left:40px; 
+  margin-right: 5px;
+  font-size: 20px;
+  font-family: 'Libre Caslon Display', serif;
+ }
+
+.pfp{
+  width:150px;
+  height:150px;
+  display:inline-block;
+  vertical-align: top; /*try middle or bottom */
+  object-fit: cover; /*crops the picture to dimensions */
+}
+
+.container {
+  background: #f2f2f2;
+  padding-left: 9%;
+  padding-right: 9%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin:20px;
+  width:700px; /* change to fixed pixel value */
+  margin-left: 16%;
+  box-shadow: 10px 5px 5px black;
+   
+}
+
+.sparkley {
+
+  background: lighten( $buttonBackground , 10% );
+  color: $buttonColor;
+  border: none;
+
+  padding: 16px 36px;
+  font-weight: normal;
+  
+  border-radius: 3px;
+  transition: all 0.25s ease;
+  
+  box-shadow: 0 38px 32px -23px black;
+  margin: 0 1em 1em;
+  
+  &:hover {
+   
+    background: $buttonBackground;
+    color: transparentize( $buttonColor,0.8 );
+    
+  }
+  
+}
+.mails{
+  text-decoration: none;
+  color: black;
+}
+
+.mails:hover{
+  color: blue;
+  text-decoration: underline;
+}

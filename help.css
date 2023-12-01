@@ -1,0 +1,42 @@
+p {
+  text-align: center;
+  color: snow;
+  font-family: cursive;
+  font-size: 40px;
+}
+
+.box {
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+
+.box {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 9%; /* Adjust this value to move the positioned div up and down */
+  margin-bottom: 5%;
+  text-align: center;
+  width: 100%; /* Set the width of the positioned div */
+}
+
+.text {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 20%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 60%; /* Set the width of the positioned div */
+}
+
+footer{
+  position:fixed ; 
+  bottom:0;
+  left:0;
+  width: 100%;
+}
+
